@@ -1,0 +1,10 @@
+@use '../../../mixins.scss' as *;
+
+.root{
+    @include flex-center;
+    background-color: darkcyan;
+    padding: 10px;
+}
+.label{
+    color: white;
+} 
